@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Navbar() {
   return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div class="container">
           <a class="navbar-brand fw-bold fs-4" href="#">
-            Collection
+            E-commerce
           </a>
           <button
             class="navbar-toggler"
@@ -54,9 +54,11 @@ export default function Navbar() {
                       Another action
                     </a>
                   </li>
+
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
+
                   <li>
                     <a class="dropdown-item" href="#">
                       Something else here
@@ -66,10 +68,23 @@ export default function Navbar() {
               </li>
             </ul>
             <div className="buttons">
-              <a href="" className="btn btn-outline-dark">
+
+              <a href="" className="btn btn-outline-dark me-2">
                 <i className="fa fa-sign-in me-2"></i>
                 Login
               </a>
+
+              <a href="" className="btn btn-outline-dark me-2">
+                <i className="fa fa-user-plus me-1"></i>
+                Register
+              </a>
+
+              <a href="" className="btn btn-outline-dark me-2">
+                <i className="fa fa-shopping-cart me-1"></i>
+                Cart
+              </a>
+
+
             </div>
           </div>
         </div>
